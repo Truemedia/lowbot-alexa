@@ -1,0 +1,27 @@
+{
+  "name": "lowbot-alexa",
+  "version": "0.1.0",
+  "description": "Alexa adapter for lowbot",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Truemedia/lowbot-alexa.git"
+  },
+  "keywords": [
+    "lowbot",
+    "adapter",
+    "alexa",
+    "api",
+    "bot",
+    "service"
+  ],
+  "author": "Wade Penistone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Truemedia/lowbot-alexa/issues"
+  },
+  "homepage": "https://github.com/Truemedia/lowbot-alexa#readme"
+}
