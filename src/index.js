@@ -26,12 +26,20 @@ module.exports = {
   /**
     * Input configuration
     * @namespace input
-    * @prop {String} detector - Library used to detect intent of msg
-    * @prop {String} parser - Library used to parse information from msg
     */
   input: {
-    detector: null, // Done by the framework
-    parser: null // Done by the framework
+    /**
+      * Computer vision algorithms
+      */
+    cva: {support: false}
+    /**
+      * Natural language understanding
+      */
+    nlu: {support: true, native: true}
+    /**
+      * Speech recognition layer
+      */
+    srl: {support: true, native: true},
   },
   /**
     * Output configuration
